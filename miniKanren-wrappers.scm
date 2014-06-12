@@ -3,7 +3,7 @@
 
 (define-syntax Zzz
   (syntax-rules ()
-    ((_ g) (lambda (a/c) (lambda () (g a/c))))))
+    ((_ g) (lambda (s/c) (lambda () (g s/c))))))
 
 (define-syntax conj+
   (syntax-rules ()
